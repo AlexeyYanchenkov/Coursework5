@@ -11,7 +11,7 @@ def get_vacancies_list():
     headers = {'User-Agent': 'HH-User-Agent'}
     items_list = []
     print(f"Загружаю данные с сайта hh.ru...")
-    employers_list = (1107346, 1299621, 1426894, 2513924, 2663290, 3194491, 3440765, 5724503, 5952388, 1389429) #Избранные 10 компаний
+    employers_list = (9694561, 4219, 5919632, 5667343, 9301808, 10571093, 198614, 6062708, 78638, 1107346) #Избранные 10 компаний
     url_list = []
     for employer_id in employers_list:
         full_url = url + '/' + str(employer_id)
